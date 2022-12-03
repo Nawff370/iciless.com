@@ -1,0 +1,52 @@
+body {
+    background-color: white;
+}
+
+.section-one {
+    color: white;
+    background-color: rgb(68, 91, 191);
+    margin: 10px;
+    border-radius: 130px;
+    background-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.hed {
+    font-size: 130px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.num1 {
+    color: black;
+    margin: 20px;
+    background-color: white;
+    
+}
+
+.section-two {
+    border-radius: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: black;
+}
+
+.section-two-1 {
+    padding-bottom: 500px;
+    background-image: url(/images/hiroto.jpg);
+    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.section-two-2 {
+    padding-bottom: 50px;
+    color: white;
+    font-size: 60px;
+}
+
+

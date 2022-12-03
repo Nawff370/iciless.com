@@ -1,0 +1,900 @@
+body {
+    background-image: url(images/white-logo.png);
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+    background-size: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+margin: 0;
+    
+}
+
+.website-home-logo {
+  background-position: center;
+  border-radius: 100%;
+  text-align: center;
+  background-size: 10px;
+}
+
+h2.heading {
+    font-size: xx-large;
+    font-family: monospace;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border: 5px solid rgb(0, 0, 0);
+    color: white;
+    padding: 40px;
+    position: -webkit-sticky;
+  position: sticky;
+  margin-top: 0;
+}
+
+#ff1-h {
+  text-shadow: 0 0 50px #ffffff, 0 0 100px #ffffff, 0 0 150px #ffffff, 0 0 200px #ffffff ;
+  box-shadow: 2px 2px 2px #04ecf4, 10px 1px 120px #04ecf4, 2px 2px 100px #04ecf4,15px 15px 15px #04ecf4, inset 2px 2px 100px #04ecf4, inset 2px 2px 100px #04ecf4;
+  font-size: 50px;
+}
+#ee1-h {
+  text-shadow: 0 0 50px #ffffff, 0 0 100px #ffffff, 0 0 150px #ffffff, 0 0 200px #ffffff ;
+  box-shadow: 2px 2px 2px #04ecf4, 10px 1px 120px #04ecf4, 2px 2px 100px #04ecf4, 15px 15px 15px #04ecf4, inset 2px 2px 100px #04ecf4, inset 2px 2px 100px #04ecf4;
+  font-size: 50px;
+}
+#ee2-h {
+  text-shadow: 0 0 50px #ffffff, 0 0 100px #ffffff, 0 0 150px #ffffff, 0 0 200px #ffffff ;
+  box-shadow: 2px 2px 2px #04ecf4, 10px 1px 120px #04ecf4, 2px 2px 100px #04ecf4, 15px 15px 15px #04ecf4, inset 2px 2px 100px #04ecf4, inset 2px 2px 100px #04ecf4;
+  font-size: 50px;
+}
+#rr1-h {
+  text-shadow: 0 0 50px #fcfcfcfe, 0 0 100px #ffffff, 0 0 150px #ffffff, 0 0 200px #ffffff;
+  box-shadow: 2px 2px 2px #00c3ff, 10px 1px 120px #00c3ff, 2px 2px 100px #00c3ff, 15px 15px 15px #00c3ff, inset 2px 2px 100px #00c3ff, inset 2px 2px 100px #00c3ff;
+  font-size: 50px;
+}
+#ii1-h {
+  text-shadow: 0 0 50px #ffffff, 0 0 100px #ffffff, 0 0 150px #ffffff, 0 0 200px #ffffff ;
+  box-shadow: 2px 2px 2px #04ecf4, 10px 1px 120px #04ecf4, 2px 2px 100px #04ecf4, 15px 15px 15px #04ecf4, inset 2px 2px 100px #04ecf4, inset 2px 2px 100px #04ecf4;
+  font-size: 50px;
+}
+#cc1-h {
+  text-shadow: 0 0 50px #ffffff, 0 0 100px #ffffff, 0 0 150px #ffffff, 0 0 200px #ffffff;
+  box-shadow: 2px 2px 2px #04ecf4, 10px 1px 120px #04ecf4, 2px 2px 100px #04ecf4, 15px 15px 15px #04ecf4, inset 2px 2px 100px #04ecf4, inset 2px 2px 100px #04ecf4;
+  font-size: 50px;
+}
+#ss1-h {
+  text-shadow: 0 0 50px #ffffff, 0 0 100px #ffffff, 0 0 150px #ffffff, 0 0 200px #ffffff;
+  box-shadow: 2px 2px 2px #04ecf4, 10px 1px 120px #04ecf4, 2px 2px 100px #04ecf4, 15px 15px 15px #04ecf4, inset 2px 2px 100px #04ecf4, inset 2px 2px 100px #04ecf4;
+  font-size: 50px;
+}
+
+
+
+footer.footer-text {
+    color: rgb(255, 255, 255);
+    background-color: rgb(59, 59, 59);
+    background-size: 100%;
+    margin: 20px;
+    border: 18px solid rgb(59, 59, 59);
+    border-radius: 15px;
+}
+
+footer.footer-text-div {
+    margin: 20px;
+    
+}
+
+footer.support-info {
+    color: rgb(255, 255, 255);
+    background-color: rgb(21, 0, 46);
+    background-size: 100%;
+    margin: 20px;
+    border: 18px solid rgb(21, 0, 46);
+    border-radius: 15px;
+}
+
+.footerbackground {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0,0,0, 0.5);
+  overflow-x: hidden;
+  border-radius: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-background-enebled-dark-mode {
+  background-color: rgb(49, 49, 49);
+}
+
+.sub-heading {
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 20px;
+}
+
+
+/*top menu only*/
+
+.tab {
+    overflow: hidden;
+    background-color: rgb(65, 116, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 13px 16.5px;
+    text-align: center;
+    transition: 0.3s;
+    font-size: 16px;
+    color: white;
+    background-position: center;
+  }
+  
+  .tab button:hover {
+    background-color: rgb(65, 116, 255);
+    color: rgb(0, 0, 0);
+  }
+  
+  .tab button.active {
+    background-color: rgb(65, 116, 255);
+    color: rgb(0, 0, 0);
+  }
+  
+  .tabcontent {
+    display: none;
+    padding: 10px 10px;
+
+  }
+
+  /*overlay*/
+
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .overlay button {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  .overlay button:hover, .overlay button:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+  .overlay.open {
+    background-position: center;
+    margin: 10px;
+  }
+
+ /*login*/
+
+
+input.input1-login[type=text], input.input2-login[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+button.submit-login {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button.submit-login:hover, button.button-cancel-login:hover {
+  opacity: 0.8;
+}
+
+
+.cancelbtn-login {
+  width: auto;
+  padding: 10px 18px;
+  border: 1px solid red;
+  background-color: #ff1100;
+}
+
+.cancelbtn-login:hover {
+  cursor: crosshair;
+}
+
+
+.imgcontainer-login {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar-login {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container-login {
+  padding: 16px;
+}
+
+span.psw-login {
+  float: right;
+  padding-top: 16px;
+}
+
+
+.modal-login {
+  display: none;
+  position: fixed; 
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(49, 49, 49); 
+  padding-top: 60px;
+}
+
+
+.modal-content-login {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  width: 80%; 
+}
+
+
+.close-login {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close-login:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+
+.animate-login {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+@media screen and (max-width: 300px) {
+  span.psw-login {
+     display: block;
+     float: none;
+  }
+  .cancelbtn-login {
+     width: 100%;
+  }
+}
+
+/*sign up*/
+
+
+input.input1-sign[type=text], input.input2-sign[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+input.input1-sign[type=text]:focus, input.input2-sign[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+button.signupbtn-sign, button.submit-sign {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button.signupbtn-sign:hover, button.submit-sign:hover {
+  opacity:1;
+}
+
+
+.cancelbtn-sign {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+
+.cancelbtn-sign, .signupbtn-sign {
+  float: left;
+  width: 50%;
+}
+
+.container-sign {
+  padding: 16px;
+}
+
+  .modal-sign {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto; 
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+
+.modal-content-sign {
+  background-color: #ffffff;
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  width: 80%; 
+}
+
+
+hr.hr-sign {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+
+.close-sign {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close-sign:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+
+.clearfix-sign::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (max-width: 300px) {
+  .cancelbtn-sign, .signupbtn-sign {
+     width: 100%;
+  }
+}
+
+
+/*login button and sign in button*/
+
+div.user {
+text-align: center;
+color: rgb(0, 0, 0);
+background-color: rgba(0,0,0, 0.4); 
+border-radius: 20px;
+padding: 30px;
+}
+
+button.one {
+color: #000;
+background-color: rgb(119, 97, 201);
+border: white;
+padding: 15px;
+font-size: medium;
+font-family: sans-serif;
+background-position: right;
+border-radius: 8px;
+padding: 20px;
+}
+
+button.two {
+color: #000;
+background-color: rgb(119, 97, 201);
+border: white;
+padding: 15px;
+font-size: medium;
+font-family: sans-serif;
+background-position: left;
+border-radius: 8px;
+padding: 20px;
+}
+
+.resgisteration-text {
+  text-decoration: none;
+}
+
+
+/*connections icons*/
+
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  height: 20vh;
+  width: 100vw;
+}
+.container4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  width: 100vw;
+}
+
+#twitter, #github, #facebook, #discord {
+  font-size: 50px;
+  color: #fff;
+  box-shadow: 2px 2px 2px #00000080, 10px 1px 12px #00000080, 2px 2px 10px #00000080, 2px 2px 3px #00000080, inset 2px 2px 10px #00000080, inset 2px 2px 10px #00000080;
+  border-radius: 32px;
+  animation: animate 3s linear infinite;
+  
+}
+
+
+#twitter {
+  text-shadow: 0 0 50px #00fff7, 0 0 100px #00fff7, 0 0 150px #00fff7, 0 0 200px #00fff7 ;
+  background-color: #57c6e8;
+  padding: 25px 25px;
+}
+#github {
+  text-shadow: 0 0 50px #ffffff78, 0 0 100px #ffffff78, 0 0 150px #ffffff78, 0 0 200px #ffffff78 ;
+  background-color: #18191f;
+  padding: 25px 29px;
+}
+#facebook {
+  text-shadow: 0 0 50px #0f67d2, 0 0 100px #0f67d2, 0 0 150px #0f67d2, 0 0 200px #0f67d2 ;
+  background-color: #1533de;
+  padding: 25px 29px;
+}
+#discord {
+  text-shadow: 0 0 50px #ffffff78, 0 0 100px #ffffff78, 0 0 150px #ffffff78, 0 0 200px #ffffff78 ;
+  background-color: #4556b9;
+  padding: 25px 20px;
+}
+/* settings */
+
+.switch22 {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch22 input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider22 {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(255, 255, 255);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider22:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider22 {
+  background-color: #2196F3;
+}
+
+input:focus + .slider22 {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider22:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider22.round22 {
+  border-radius: 34px;
+}
+
+.slider22:before {
+  border-radius: 50%;
+}
+
+/* darkmode */
+
+
+.dark-mode-off {
+  background-color: #000;
+  background-image: url(/images/logo-black.png);
+  background-size: 600px;
+  color: white;
+}
+
+.setting-options-layout {
+  background-color: rgba(0,0,0, 0.4);
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.setting-option-layout-2 {
+  color: white;
+  background-color: #00000000;
+  padding: 20px;
+border-radius: 10px;
+}
+
+
+/* discord */
+
+.application-dicord-tab {
+  background-color: rgb(0, 0, 0);
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 10px;
+  border: 5px solid white;
+}
+
+.inputBox 
+{
+	position: relative;
+	width: 300px;
+	margin-top: 35px;
+  
+}
+.inputBox input 
+{
+	position: relative;
+	width: 100%;
+	padding: 20px 10px 10px;
+	background: transparent;
+	outline: none;
+	box-shadow: none;
+	border: none;
+	color: #00ffee;
+	font-size: 1em;
+	letter-spacing: 0.05em;
+	transition: 0.5s;
+	z-index: 10;
+  
+}
+.inputBox span 
+{
+	position: absolute;
+	left: 0;
+	padding: 20px 0px 10px;
+	pointer-events: none;
+	color: #8f8f8f;
+	letter-spacing: 0.05em;
+	transition: 0.5s;
+  
+}
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span 
+{
+	color: #ffffff;
+	transform: translateX(0px) translateY(-34px);
+   font-family: monospace;
+   margin-bottom: 10px;
+}
+
+
+.inputBox i 
+{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 2px;
+	background: #5940ab;
+	border-radius: 4px;
+	overflow: hidden;
+	transition: 0.5s;
+	pointer-events: none;
+	z-index: 9;
+}
+.inputBox input:valid ~ i,
+.inputBox input:focus ~ i 
+{
+	height: 44px;
+  background: #5940ab;
+}
+
+.discord-submit-style {
+  margin: 19px;
+  width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.discord-submit-style:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.discord-submit-style:active {
+  color: #000
+}
+
+.discord-submit-style:active:after {
+  background: transparent;
+}
+
+.discord-submit-style:hover:before {
+  opacity: 1;
+}
+
+.discord-submit-style:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+
+.wms {
+  color: white;
+}
+
+h4.custom {
+  color: #5940ab;
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+h4.h41 {
+  color: white;
+}
+
+h5 {
+  color: white;
+}
+
+
+/* discord custom text generator */
+
+.container9 {
+  max-width: 500px;
+  margin: auto;
+}
+
+.flex9 {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#textarea {
+  width: 600px;
+  height: 200px;
+  border-radius: 5px;
+  resize: both;
+  overflow: auto;
+  text-align: left;
+  font-family: monospace;
+  background-color: #2F3136;
+  color: #B9BBBE;
+  border: #202225 1px solid;
+  padding: 5px;
+  display: inline-block;
+  
+  white-space: pre-wrap;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  text-indent: 0;
+}
+
+.button9 {
+  min-height: 32px;
+  min-width: 32px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #4f545c;
+  font-size: 14px;
+  padding: 2px 16px;
+  cursor: pointer;
+  transition: background-color 250ms linear;
+}
+
+a,a:visited {
+  color: #00AFF4
+}
+
+.ansi-1 { font-weight:700; text-decoration:none;       }
+.ansi-4 { font-weight:500; text-decoration:underline;  }
+
+.ansi-30 { color: #4f545c; }
+.ansi-31 { color: #dc322f; }
+.ansi-32 { color: #859900; }
+.ansi-33 { color: #b58900; }
+.ansi-34 { color: #268bd2; }
+.ansi-35 { color: #d33682; }
+.ansi-36 { color: #2aa198; }
+.ansi-37 { color: #ffffff; }
+
+.ansi-30-bg { background-color: #4f545c; }
+.ansi-31-bg { background-color: #dc322f; }
+.ansi-32-bg { background-color: #859900; }
+.ansi-33-bg { background-color: #b58900; }
+.ansi-34-bg { background-color: #268bd2; }
+.ansi-35-bg { background-color: #d33682; }
+.ansi-36-bg { background-color: #2aa198; }
+.ansi-37-bg { background-color: #ffffff; }
+
+.ansi-40 { background-color: #002b36; }
+.ansi-41 { background-color: #cb4b16; }
+.ansi-42 { background-color: #586e75; }
+.ansi-43 { background-color: #657b83; }
+.ansi-44 { background-color: #839496; }
+.ansi-45 { background-color: #6c71c4; }
+.ansi-46 { background-color: #93a1a1; }
+.ansi-47 { background-color: #fdf6e3; }
+
+.copy {
+margin-top: 10px;
+}
+
+
+
+/* discord nitro generator */
+
+textarea.gen {
+  background-color: #000;
+  border: 1px solid #000;
+  color: #ffffff;
+  padding: 8px;
+  font-family: courier new;
+}
+
+
+
+input.gen {
+  background-color: #030000;
+  color: #ffffff;
+}
+
+button.gen {
+background-color:#000000;
+cursor:pointer;
+color:#ffffff;
+font-family:Arial;
+font-size:17px;
+padding:7px 8px;
+text-decoration:none;
+}
+button.gen:active {
+position:relative;
+top:1px;
+}
